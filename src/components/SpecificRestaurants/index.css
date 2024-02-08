@@ -1,0 +1,162 @@
+.specific-restaurants-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.specific-restaurants-header-card {
+  background-image: url('https://i.im.ge/2024/01/24/YHbq1m.Frame-279.png');
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  padding: 20px;
+}
+
+.specific-resturants-details {
+  display: flex;
+  width: 95%;
+  object-fit: cover;
+
+  @media (min-width: 768px) {
+    width: 60%;
+  }
+
+  @media (min-width: 1200px) {
+    width: 45%;
+  }
+}
+
+.specific-restaurants-header-img {
+  border-radius: 5%;
+  width: 40%;
+  object-fit: cover;
+
+  @media (min-width: 768px) {
+    width: 40%;
+    max-height: 35vh;
+  }
+
+  @media (min-width: 1200px) {
+    width: 40%;
+    max-height: 35vh;
+  }
+}
+
+.specific-resturants-header-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+  font-family: Roboto;
+}
+
+.specific-resturant-food-items-container {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.specific-restaurant-header-rating-image {
+  width: 15px;
+  margin-right: 2px;
+}
+
+.food-items-lists {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style-type: none;
+  padding: 0px;
+  justify-content: space-between;
+}
+
+.specific-resturants-header-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
+.specific-resturants-header-type {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
+.specific-resturants-header-location {
+  font-size: 16px;
+  font-weight: 300;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
+.specific-resturants-header-description {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+
+  @media (min-width: 768px) {
+    width: 50%;
+  }
+
+  @media (min-width: 1200px) {
+    width: 50%;
+  }
+}
+
+.specific-resturants-header-rating-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.specific-resturants-header-rating {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
+.specific-resturants-header-reviews {
+  font-size: 16px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.specific-resturants-header-cost-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  @media (min-width: 990px) {
+    margin-left: 10px;
+  }
+}
+
+.specific-resturants-header-cost {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
+.specific-resturants-header-cost-text {
+  font-size: 16px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.restaurant-details-loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}

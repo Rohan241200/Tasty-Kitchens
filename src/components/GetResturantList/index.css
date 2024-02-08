@@ -1,0 +1,91 @@
+.resturant-lists {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 130px;
+  margin-bottom: 25px;
+  text-decoration: none;
+}
+
+.resturant-lists-item {
+  width: 100%;
+  display: flex;
+  height: auto;
+  padding: 10px;
+}
+
+.resturants-list-links {
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .resturant-lists {
+    width: 50%;
+    height: 130px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .resturant-lists {
+    width: 32%;
+    height: 120px;
+  }
+}
+
+.resturant-list-img {
+  object-fit: cover;
+  min-width: 160px;
+  max-height: 120px;
+  border-radius: 10px;
+
+  @media (min-width: 768px) {
+    width: 140px;
+  }
+}
+
+.resturant-list-details-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+  width: 100%;
+}
+
+.resturant-list-name {
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Roboto;
+  color: black;
+}
+
+.resturant-list-type {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Roboto;
+  color: #0f1035;
+}
+
+.resturant-list-rating-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.resturant-list-rating {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Roboto;
+  padding-left: 4px;
+  padding-right: 2px;
+  color: black;
+}
+
+.resturant-list-reviews {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Roboto;
+  color: #0f1035;
+  width: 100%;
+}

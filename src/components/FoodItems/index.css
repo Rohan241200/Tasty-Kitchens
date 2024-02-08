@@ -1,0 +1,65 @@
+.food-item-list-card {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  margin-bottom: 20px;
+
+  @media (min-width: 768px) {
+    width: 45%;
+  }
+
+  @media (min-width: 1200px) {
+    width: 32%;
+  }
+}
+
+.food-item-list-image {
+  min-width: 160px;
+  object-fit: cover;
+  height: auto;
+  border-radius: 10px;
+}
+
+.food-item-list-details-card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  font-family: Roboto;
+  width: 100%;
+}
+
+.food-details-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 0px;
+}
+
+.food-details-cost {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(33, 31, 31);
+  margin-bottom: 0px;
+}
+
+.food-detials-rating {
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.add-to-cart-button {
+  background-color: #ffffff;
+  border: 1px solid orange;
+  color: orange;
+  padding: 6px 15px 6px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  align-self: flex-start;
+  font-size: 16px;
+  font-weight: bold;
+}

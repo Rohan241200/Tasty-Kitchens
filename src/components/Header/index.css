@@ -1,0 +1,129 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e9f6ff;
+
+  @media (min-width: 768px) {
+    justify-content: space-around;
+  }
+}
+
+.header-logo-card {
+  display: flex;
+  align-items: center;
+}
+
+.header-home-link-logo {
+  text-decoration: none;
+}
+
+.header-features-title {
+  color: orange;
+  font-size: 24px;
+  font-family: Roboto;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.desktop-links-items-lists {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+@media (max-width: 767px) {
+  .desktop-links-items-lists {
+    display: none;
+  }
+}
+
+.header-links {
+  margin-left: 20px;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.logout-button {
+  margin-left: 20px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: orange;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 600;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.mobile-menu-popup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .mobile-menu-popup-container {
+    display: none;
+  }
+}
+
+.mobile-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.trigger-menu-button {
+  background-color: transparent;
+  border: 1px solid blue;
+  color: blue;
+  font-size: 24px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.trigger-close-button {
+  color: black;
+  border: none;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.cart-length {
+  display: flex;
+  align-items: center;
+}
+
+.cart-item-length {
+  background-color: red;
+  border-radius: 50%;
+  padding: 1px 6px;
+  color: white;
+  margin-left: 2px;
+  font-family: Roboto;
+  font-weight: 500;
+}

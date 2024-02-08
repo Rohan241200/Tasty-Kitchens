@@ -1,0 +1,54 @@
+.page-not-found {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.page-not-found-card {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.erroring {
+  width: 40%;
+}
+
+.page-not-found-title {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.we-are-sorry-the {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 2;
+  text-align: center;
+}
+
+.link-button {
+  text-decoration: none;
+}
+
+.go-to-homepage-button {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #fe7a36;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Roboto;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}

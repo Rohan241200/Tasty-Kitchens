@@ -1,0 +1,140 @@
+.login-container {
+  background-image: url('https://s3-alpha-sig.figma.com/img/ceff/20e8/367d1981f2a409a617ac848670d29c7e?Expires=1708300800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SpWaaQKlYJOcjVy8Es4~vlnyVuN9yJgJdKlwuldVrAjjPt7QpRyIJOBgTW91kNaYXAMCRgaGhlVhDQBCuXQnGkPESOfD0G3KLFEO4seB57x-QpH7Lfz4VRwGe9IGxsM2ZghX7Inkclkzme2OG54C0-N6PaJziQiybNdJ~50kP0bSL6R7TmVu7X2y0Po41yfXn0sh3WblvaA3k8DocHGTipFCuJjnP-CFH~vmTTG2HCvAzW43hitYEbYu-aHJnLbkBMW7v0hFm9YsGt5O8Ox5KlzoFN8uOsh1e~YtQJnt4DL6F3hvyk3PHFgJnsDVUlo-goE98a-qPi7~biqFPYr0sA__');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+@media (min-width: 768px) {
+  .login-container {
+    background-image: none;
+    background-color: #ffffff;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 100vh;
+  }
+}
+
+.login-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .login-card-container {
+    background-color: #ffffff;
+    min-width: 60%;
+  }
+}
+
+.card {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 4px #bfcfe7;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4% 10% 4% 10%;
+}
+
+@media (max-width: 767px) {
+  .card {
+    opacity: 0.85;
+  }
+}
+
+.login-page-image {
+  height: 100vh;
+  object-fit: cover;
+
+  @media (min-width: 992px) {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .login-page-image {
+    display: none;
+  }
+}
+
+.frame-img {
+  width: 20%;
+  object-fit: cover;
+  margin-bottom: 0px;
+}
+
+.features-title {
+  color: orange;
+  font-size: 32px;
+  font-family: Roboto;
+  font-weight: 600;
+}
+
+.form-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.login-title {
+  font-size: 24px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.input-label-default {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.label {
+  line-height: 1.8;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.user-input {
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: bold;
+  border: none;
+  outline-color: orange;
+  background-color: #dcf2f1;
+  padding: 5%;
+  border-radius: 5px;
+}
+
+.login-button {
+  background-color: orange;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 5%;
+}
+
+.error-msg {
+  color: red;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+  margin-top: 0px;
+}

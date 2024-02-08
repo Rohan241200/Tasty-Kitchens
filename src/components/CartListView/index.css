@@ -1,0 +1,33 @@
+.cart-list {
+  padding-left: 0px;
+  list-style-type: none;
+  width: 85%;
+  margin: 5% 0px 5% 0px;
+  background-color: rgb(223, 238, 244);
+  border-radius: 5px;
+}
+
+.cart-list-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  font-family: Roboto;
+}
+
+.cart-header-item {
+  width: 40%;
+  margin-left: 25px;
+  text-align: center;
+}
+
+.cart-header-quantity {
+  text-align: center;
+}
+
+.cart-header-price {
+  margin-right: 15px;
+}
